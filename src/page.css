@@ -1,0 +1,61 @@
+body {
+    background-color: #282c34;
+    color: white;
+    flex-direction: column;
+}
+body .list{
+    display: flex;
+    justify-content: center;
+}
+body .list ul {
+    flex-direction: column;
+    list-style: none;
+}
+body .list ul li{
+    flex-direction: column;
+}
+body .liste .list-group-item{
+    width: 0;
+    display: none;
+    flex-direction: row-reverse;    
+}
+body .liste .list-group-item button{
+    padding: 50px;
+    margin-right: 10px;  
+}
+body .list form input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 2px;
+
+}
+ body input .PN{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+body .PN{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+body .Ma-liste ul li .list-group-item{
+    margin-bottom: 10px;
+}
+body .Ma-liste ul li .list-group-item input{
+    margin-right: 20px;
+}
+body .Ma-liste ul li .list-group-item button{
+    margin-right: 20px;
+    padding:10px;
+}
+body .Ma-liste ul li .list-group-item button.Edit{
+    background-color: blue;
+    color: white;
+
+}
+body .Ma-liste ul li .list-group-item button.Delet{
+    background-color: red;
+    color: white;
+}
+
